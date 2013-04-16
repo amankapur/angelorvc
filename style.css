@@ -13,3 +13,7 @@ input#slider-stage {
 h2 {
 	margin-top: 50px;
 }
+
+#top{
+	min-height: 0px;
+}
