@@ -25,4 +25,15 @@ $(function(){
       
 	}).change();
 
+
+	$("#submit").on('click', function(){
+		value = Math.round(Math.random()*10) > 5
+		if (value) {
+			$("#overview").html("<h1> You should go with Angel funding </h1>");
+		}
+		else {
+			$("#overview").html("<h1> You should go with VC funding </h1>");
+		}
+
+	});
 });
